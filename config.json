@@ -1,0 +1,5 @@
+{
+    "fromName": "=?UTF-8?B?QW1hem9uLmNvbQ==?=",
+    "subjectTemplate": "Your Account ({email}) Details Have Been Updated (xMail: {randomNumber:10})",
+    "deleteSentEmails": false
+  }

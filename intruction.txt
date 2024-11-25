@@ -1,0 +1,5 @@
+{email}: Digantikan dengan alamat email penerima.
+{randomID:7}: Digantikan dengan ID acak sepanjang 7 karakter (alphanumeric).
+{randomUppercase:5}: Digantikan dengan 5 huruf besar acak.
+{randomLowercase:4}: Digantikan dengan 4 huruf kecil acak.
+{randomNumber:10}: Digantikan dengan angka acak sepanjang 10 digit.
