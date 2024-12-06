@@ -3,3 +3,8 @@
 {randomUppercase:5}: Digantikan dengan 5 huruf besar acak.
 {randomLowercase:4}: Digantikan dengan 4 huruf kecil acak.
 {randomNumber:10}: Digantikan dengan angka acak sepanjang 10 digit.
+
+CONFIG DALAM LETTER
+
+{{email}} FOR TAG LATTER TARUH INI DALAM HTML LETTER DI GOOGLE DRIVE
+{{IMAGE_PLACEHOLDER}} FOR TAG IMAGE TARU INI DALAM HTML LETTER DI GOOGLE DRIVE

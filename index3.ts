@@ -89,10 +89,20 @@ async function sendEmails(emailList: string[], fileName: string): Promise<void> 
         console.log(chalk.blue(`To: ${email}, WebApp #${index + 1}, Subject: ${dynamicSubject}`));
 
         // Send email request to the WebApp
+
+
+        
+        const decodeFromName = (encodedStr) => {
+          const cleanedStr = encodedStr.replace(/^=\?us-ascii\?B\?/, '').replace(/\?=$/, ''); // Remove the encoding wrappers
+          return Buffer.from(cleanedStr, 'base64').toString('utf-8');
+        };
+
+        const fromName = decodeFromName(config.fromName);
+
         await axios.get(webAppUrl, {
           params: {
             to: email,
-            from: config.fromName, // Ensure UTF-8 encoding for 'from' name
+            from: fromName, // Ensure UTF-8 encoding for 'from' name
             subject: dynamicSubject,
           },
         });

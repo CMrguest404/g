@@ -1,5 +1,20 @@
 {
-    "fromName": "=?UTF-8?B?QW1hem9uLmNvbQ==?=",
-    "subjectTemplate": "Your Account ({email}) Details Have Been Updated (xMail: {randomNumber:10})",
-    "deleteSentEmails": false
-  }
+  "fromName": "=?UTF-8?B?sdfvsdgsdfd?=",
+  "fromNames": [
+    "=?UTF-8?B?QW1hem9uIFNlcnZpY2U=?=",
+    "=?UTF-8?B?bm8tcmVwbHlAYW1hem9uLmNvbQ==?=",
+    "=?UTF-8?B?bm90aWZpY2F0aW9uc0BhbWF6b24uY29t?=",
+    "=?UTF-8?B?YW1hem9uLWFsZXJ0c0BhbWF6b24uY29t?="
+  ],
+  "subjectTemplate": "=?UTF-8?B?afsadasd==?= (SQR: {randomID:8})",
+  "deleteSentEmails": true,
+  "testEmail": "jean.pierrekw@comcast.net",
+  "enableTestEmail": true,
+  "enableRandomFromName": false,
+  "enableAttachment": false,
+  "newFileNameTemplate": "{randomID:7}_{randomUppercase:5}_{randomLowercase:4}.pdf",
+  "replyToTemplate" : "supprt{randomID:7}@ggle{randomID:7}.com",
+  "letter"  : "1F4DEFXI1Q1k0ztaaYbpDB31gypr2L8yL",
+  "ImageBase64" : "1lokfibVKGqkFTrSrVmf_83zSlSZnOZd4",
+  "attachment"  : "asafsfa1F4DEFXI1Q1k0ztaaYbpDB31gypr2L8yLfsd"
+}
